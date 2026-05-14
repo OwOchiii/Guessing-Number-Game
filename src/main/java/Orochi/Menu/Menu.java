@@ -48,7 +48,7 @@ public class Menu {
         String playAgain = sc.nextLine();
         if (playAgain.equalsIgnoreCase("yes")) {
             start();
-        } else {
+        } else {    
             System.out.println("Thank you for playing! Goodbye!");
         }
         sc.close();
